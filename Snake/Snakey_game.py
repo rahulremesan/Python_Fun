@@ -12,12 +12,12 @@ black = (0, 0, 0)
 
 # Creating window
 screen_width = 900
-screen_height = 600
+screen_height = 500
 gameWindow = pygame.display.set_mode((screen_width, screen_height))
 # Game Title
 
 
-pygame.display.set_caption("Snake")
+pygame.display.set_caption("Snakey")
 pygame.display.update()
 clock = pygame.time.Clock()
 font = pygame.font.SysFont(None, 55)
